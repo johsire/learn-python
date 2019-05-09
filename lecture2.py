@@ -1,10 +1,15 @@
 #Python Strings & String Formatting Using F-String Format:
 
-"""
-- String: A set of characters, symbols, or numbers that have no meaning to the computer
-"""
+# What is a string?
 
 """
+- String: A set of characters, symbols, or numbers that have no meaning to the computer
+- A string, is not something you'll want to do maths with (but you can still use it for other stuff).
+
+- We use strings when we want to store and refer to specific letters and numbers.
+- Strings in Python are represented as the characters we're interested in, surrounded by quotation
+marks—such as "CodeJoh", "1990-06-10", or "07248571374" etc.
+
 - When you have a number, that # represents quantity or a value, but a string doesn't represent anything, it's the digits or characters themselves.
 - But they can be used, for things that make sense to a person, but not necessarily to a computer.
 """
@@ -62,3 +67,14 @@ print(ef_string_greeting)
 dot_format_greeting = 'Hey there , {}'
 formatted_greeting = dot_format_greeting.format(name)
 print(formatted_greeting)
+
+
+# Extra resources
+
+"""
+Numeric types
+https://docs.python.org/3.7/library/stdtypes.html#numeric-types-int-float-complex
+
+String
+https://docs.python.org/3.7/library/stdtypes.html#text-sequence-type-str
+"""

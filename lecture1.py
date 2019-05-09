@@ -1,4 +1,26 @@
-#Variables, Numbers, Printing & Comments in Python
+# Variables, Numbers, Printing & Comments in Python
+
+"""
+Variables in Python are names for values.
+"""
+
+# How do you declare a variable?
+
+"""
+In Python we declare variables by specifying:
+
+The name of the variable.
+An equal sign.
+The value of the variable.
+"""
+
+
+# What is a number?
+"""
+- A number in Python refers to any whole or decimal number on which you might want to do maths.
+- Numbers in Python are represented as the digits themselves, such as 56, 87000.50, etc.
+"""
+
 
 a = 1
 b = 2
@@ -154,3 +176,14 @@ num1 = 2
 num2 = 8
 
 print(num1 * num2)
+
+
+# Extra resources
+
+"""
+Blog post about this for extra reading:
+http://blog.tecladocode.com/learn-python-day-3-first-look-at-python/
+
+RealPython also has an excellent collection of blogs:
+https://realpython.com/python-variables/
+"""
